@@ -10,7 +10,7 @@ import ContactList from './ContactList/ContactList';
 export class App extends React.Component {
   state = {
   contacts: [],
-  filter: '',
+  filter: ''
 }
 
   formSubmitHandler = data => {
